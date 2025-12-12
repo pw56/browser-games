@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden;
+}
+
+canvas {
+    background-color: black;
+    display: block;  /* 余白をなくして中央配置 */
+}
+
+/* リトライボタンの位置を画面下部に固定 */
+.game-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;  /* Button is visible initially */
+}
+
+.game-button:hover {
+    background-color: #555;
+}
+
+/* リトライボタンを下部に配置 */
+#retryButton {
+    position: absolute;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    transform: translate(-50%, 50%);
+    display: none; /* 初期状態で非表示 */
+}
