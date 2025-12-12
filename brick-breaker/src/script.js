@@ -155,7 +155,7 @@ function collisionDetection() {
 function drawScore() {
     ctx.font = '32px Arial';
     ctx.fillStyle = 'white';
-    ctx.fillText('スコア: ' + score, canvas.width / 2 - 100, 40);
+    ctx.fillText('Score: ' + score, canvas.width / 2 - 100, 40);
 }
 
 // ゲームオーバー描画
@@ -163,8 +163,8 @@ function drawGameOver() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.font = '50px Arial';
     ctx.fillStyle = 'white';
-    ctx.fillText('ゲームオーバー', canvas.width / 2 - 150, canvas.height / 2 - 50);
-    ctx.fillText('スコア: ' + score, canvas.width / 2 - 100, canvas.height / 2);
+    ctx.fillText('Game Over', canvas.width / 2 - 150, canvas.height / 2 - 50);
+    ctx.fillText('Score: ' + score, canvas.width / 2 - 100, canvas.height / 2);
 }
 
 // ゲームクリア描画
@@ -172,8 +172,8 @@ function drawGameClear() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.font = '50px Arial';
     ctx.fillStyle = 'white';
-    ctx.fillText('ゲームクリア！', canvas.width / 2 - 150, canvas.height / 2 - 50);
-    ctx.fillText('スコア: ' + score, canvas.width / 2 - 100, canvas.height / 2);
+    ctx.fillText('Game Clear', canvas.width / 2 - 150, canvas.height / 2 - 50);
+    ctx.fillText('Score: ' + score, canvas.width / 2 - 100, canvas.height / 2);
 }
 
 // ボール位置更新
