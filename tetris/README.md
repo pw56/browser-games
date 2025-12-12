@@ -26,4 +26,4 @@ This is a Tetris web app created using ChatGPT.
 - [Archetype: Moonlight](https://dova-s.jp/bgm/play22262.html)
 
 ## 🌐 Web Page
-Here is the [Game Page](https://pw56.github.io/tetris).
+Here is the [Game Page](https://pw56.github.io/browser-games/tetris).

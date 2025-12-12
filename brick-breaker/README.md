@@ -16,4 +16,4 @@ A block-breaking web app created using ChatGPT.
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
 
 ## 🌐 Web Page
-Here is the [Game Page](https://pw56.github.io/brick-breaker)
+Here is the [Game Page](https://pw56.github.io/browser-games/brick-breaker)
