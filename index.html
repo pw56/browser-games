@@ -1,67 +1,83 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
-  <title>ゲーム一覧ページ</title>
+  <title>Game list</title>
   <style>
     body {
       font-family: "Segoe UI", "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
       background-color: #f5f5f5;
       margin: 20px;
     }
+
     ul {
       list-style: none;
       padding: 0;
     }
+
     li {
       margin-bottom: 16px;
     }
+
     li a {
-      display: block;                /* ブロック全体をリンク化 */
-      background-color: #d3d3d3;     /* ゲームごとのブロック */
+      display: block;
+      /* ブロック全体をリンク化 */
+      background-color: #d3d3d3;
+      /* ゲームごとのブロック */
       padding: 16px;
       border-radius: 8px;
-      text-decoration: none;         /* デフォルトの下線を消す */
-      color: inherit;                /* テキスト色は中の指定に従う */
+      text-decoration: none;
+      /* デフォルトの下線を消す */
+      color: inherit;
+      /* テキスト色は中の指定に従う */
       transition: background-color 0.2s ease;
     }
+
     li a:hover {
-      background-color: #c0c0c0;     /* ホバー時の色変化 */
+      background-color: #c0c0c0;
+      /* ホバー時の色変化 */
     }
+
     .game-title {
-      color: #1e90ff; /* タイトル */
+      color: #1e90ff;
+      /* タイトル */
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 8px;
     }
+
     .game-desc {
-      color: #000000; /* 説明文 */
+      color: #000000;
+      /* 説明文 */
       font-size: 14px;
       line-height: 1.6;
     }
   </style>
 </head>
+
 <body>
-  <h1>ゲーム一覧</h1>
+  <h1>Game list</h1>
   <ul>
     <li>
-      <a href="skyquest.html">
-        <div class="game-title">SkyQuest</div>
-        <div class="game-desc">仲間と協力して空の冒険に挑むブラウザRPG。インストール不要で遊べます。</div>
+      <a href="./pong-game">
+        <div class="game-title">Pong Game</div>
+        <div class="game-desc">A pong-game web app created using GitHub Copilot.</div>
       </a>
     </li>
     <li>
-      <a href="pixelbattle.html">
-        <div class="game-title">Pixel Battle</div>
-        <div class="game-desc">ドット絵キャラクターで戦うアクションゲーム。シンプル操作で奥深い戦略性。</div>
+      <a href="./brick-breaker">
+        <div class="game-title">Brick Breaker</div>
+        <div class="game-desc">A block-breaking web app created using GitHub Copilot.</div>
       </a>
     </li>
     <li>
-      <a href="mysticpuzzle.html">
-        <div class="game-title">Mystic Puzzle</div>
-        <div class="game-desc">魔法世界を舞台にしたパズルゲーム。ステージをクリアして物語を進めよう。</div>
+      <a href="./tetris">
+        <div class="game-title">Tetris</div>
+        <div class="game-desc">A Tetris web app created using ChatGPT.</div>
       </a>
     </li>
   </ul>
 </body>
+
 </html>
